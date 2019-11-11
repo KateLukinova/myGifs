@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Montserrat;
+    src:url(../fonts/Montserrat.ttf);
+}
+
+body {
+    background-color: white;
+    font-family: 'Montserrat';
+}
+button, input, button:hover, input:hover, button:focus, input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+h1 {
+    font-size: 3vw;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+    margin-block-start: 1.5em;
+    margin-block-end: 1.5em;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gif-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19%;
+    height: auto;
+    min-width: 220px;
+    min-height: 220px;
+    margin-bottom: 15px;
+}
+.gif-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn {
+    width: 280px;
+    height: 56px;
+    background-color: #1c7430;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: inherit;
+    text-transform: uppercase;
+    margin: 0 15px;
+    cursor: pointer;
+}
+#load-more {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pure-input-rounded {
+    width: calc(100% - 500px);
+    height: 52px;
+    border: 1px solid #5a6268;
+    padding-left: 15px;
+}
+
+.pure-input-rounded:hover, .pure-input-rounded:focus {
+    border: 1px solid #366821;
+}
